@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5a7587a541e014c0314dcdc3f8aa4906 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_5a7587a541e014c0314dcdc3f8aa4906" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_5a7587a541e014c0314dcdc3f8aa4906 = L.map(
+                "map_5a7587a541e014c0314dcdc3f8aa4906",
+                {
+                    center: [55.751244, 37.618423],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_00e277fa0a99912bd4bd6dc6df5a3607 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_00e277fa0a99912bd4bd6dc6df5a3607.addTo(map_5a7587a541e014c0314dcdc3f8aa4906);
+        
+    
+            var marker_605cabe8eb25ae01f5622ed5f4633b1c = L.marker(
+                [55.715551, 37.554191],
+                {}
+            ).addTo(map_5a7587a541e014c0314dcdc3f8aa4906);
+        
+    
+        var popup_6fed9bc4eeaa49449477e68c18aa2162 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0da2faca637b9bc813263274b83bfcec = $(`<div id="html_0da2faca637b9bc813263274b83bfcec" style="width: 100.0%; height: 100.0%;">Лужники</div>`)[0];
+                popup_6fed9bc4eeaa49449477e68c18aa2162.setContent(html_0da2faca637b9bc813263274b83bfcec);
+            
+        
+
+        marker_605cabe8eb25ae01f5622ed5f4633b1c.bindPopup(popup_6fed9bc4eeaa49449477e68c18aa2162)
+        ;
+
+        
+    
+    
+            var marker_83757697464c52ebe67ce40a1d5fba0b = L.marker(
+                [55.818015, 37.440262],
+                {}
+            ).addTo(map_5a7587a541e014c0314dcdc3f8aa4906);
+        
+    
+        var popup_99d4f7db7788ee62bf329b31d1cfa6f7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2fdfff83c27d0ca0587efbc6396e9fcf = $(`<div id="html_2fdfff83c27d0ca0587efbc6396e9fcf" style="width: 100.0%; height: 100.0%;">Спартак</div>`)[0];
+                popup_99d4f7db7788ee62bf329b31d1cfa6f7.setContent(html_2fdfff83c27d0ca0587efbc6396e9fcf);
+            
+        
+
+        marker_83757697464c52ebe67ce40a1d5fba0b.bindPopup(popup_99d4f7db7788ee62bf329b31d1cfa6f7)
+        ;
+
+        
+    
+    
+            var marker_a54d22a81fecc1e18f7fbdae133240fa = L.marker(
+                [55.79154, 37.559809],
+                {}
+            ).addTo(map_5a7587a541e014c0314dcdc3f8aa4906);
+        
+    
+        var popup_1feccc1f3ddedbf1fe406d8ec243882b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e784e2c370fbe57a2ed62e8824bdb40c = $(`<div id="html_e784e2c370fbe57a2ed62e8824bdb40c" style="width: 100.0%; height: 100.0%;">Динамо</div>`)[0];
+                popup_1feccc1f3ddedbf1fe406d8ec243882b.setContent(html_e784e2c370fbe57a2ed62e8824bdb40c);
+            
+        
+
+        marker_a54d22a81fecc1e18f7fbdae133240fa.bindPopup(popup_1feccc1f3ddedbf1fe406d8ec243882b)
+        ;
+
+        
+    
+</script>
+</html>
